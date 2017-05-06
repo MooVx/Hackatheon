@@ -2327,6 +2327,7 @@ containing a value of this type.
         public static final int default_activity_button=0x7f0b0032;
         public static final int disableHome=0x7f0b0015;
         public static final int editText=0x7f0b007b;
+        public static final int editText2=0x7f0b007e;
         public static final int edit_query=0x7f0b0051;
         public static final int edk_button=0x7f0b0062;
         public static final int end=0x7f0b0023;
@@ -2398,6 +2399,7 @@ containing a value of this type.
         public static final int text2=0x7f0b0076;
         public static final int textSpacerNoButtons=0x7f0b003d;
         public static final int textSpacerNoTitle=0x7f0b003c;
+        public static final int textView=0x7f0b007d;
         public static final int time=0x7f0b006e;
         public static final int title=0x7f0b0035;
         public static final int titleDividerNoCustom=0x7f0b0044;

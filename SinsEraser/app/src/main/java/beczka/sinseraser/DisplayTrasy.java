@@ -42,6 +42,7 @@ import android.os.Bundle;
 
 public class DisplayTrasy extends Activity
 {
+
     private ListView list;
     private ArrayAdapter<String> adapter;
 
@@ -51,7 +52,11 @@ public class DisplayTrasy extends Activity
 
         list = (ListView) findViewById(R.id.lista_all);
 
-        String cars[] = {"Mercedes", "Fiat", "Ferrari", "Aston Martin", "Lamborghini", "Skoda", "Volkswagen", "Audi", "Citroen"};
+        try {
+            TracksBase.readFromFile(getAssets().open("data"));
+        } catch (Exception e) {
+        }
+        String cars[] = TracksBase.allTracks();
 
         ArrayList<String> carL = new ArrayList<String>();
         carL.addAll(Arrays.asList(cars));
@@ -70,9 +75,18 @@ public class DisplayTrasy extends Activity
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
 
+                final Track currentTrack = TracksBase.tracksMap.get(((TextView) view).getText());
+
                 AlertDialog alertDialog = new AlertDialog.Builder(DisplayTrasy.this).create();
                 alertDialog.setTitle(((TextView) view).getText());
-                alertDialog.setMessage("tutaj informacje");
+                alertDialog.setMessage(currentTrack.getStartCity());
+                alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, "przejdź",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                web_edk_open_named(currentTrack.getLink());
+                                dialog.dismiss();
+                            }
+                        });
                 alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "przeglądaj dalej",
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
@@ -85,6 +99,12 @@ public class DisplayTrasy extends Activity
             }
         });
 
+
+    }
+
+    public void web_edk_open_named(String link) {
+        Intent browserIntent=new Intent(Intent.ACTION_VIEW, Uri.parse(link));
+        startActivity(browserIntent);
     }
 
 
