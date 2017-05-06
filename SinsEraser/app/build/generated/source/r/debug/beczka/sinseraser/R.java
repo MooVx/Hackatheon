@@ -2285,6 +2285,20 @@ containing a value of this type.
         public static final int notify_panel_notification_icon_bg=0x7f02005c;
     }
     public static final class id {
+        public static final int EndSins=0x7f0b0091;
+        public static final int ScrollViev=0x7f0b007a;
+        public static final int Sin1=0x7f0b007c;
+        public static final int Sin10=0x7f0b008e;
+        public static final int Sin2=0x7f0b007e;
+        public static final int Sin3=0x7f0b0080;
+        public static final int Sin4=0x7f0b0082;
+        public static final int Sin5=0x7f0b0084;
+        public static final int Sin6=0x7f0b0086;
+        public static final int Sin7=0x7f0b0088;
+        public static final int Sin8=0x7f0b008a;
+        public static final int Sin9=0x7f0b008c;
+        public static final int Text=0x7f0b0090;
+        public static final int Title=0x7f0b007b;
         public static final int action0=0x7f0b0066;
         public static final int action_bar=0x7f0b004f;
         public static final int action_bar_activity_content=0x7f0b0000;
@@ -2313,7 +2327,6 @@ containing a value of this type.
         public static final int beczka_button=0x7f0b0061;
         public static final int beginning=0x7f0b0022;
         public static final int bottom=0x7f0b002a;
-        public static final int button=0x7f0b007a;
         public static final int buttonPanel=0x7f0b0036;
         public static final int cancel_action=0x7f0b0067;
         public static final int chains=0x7f0b0010;
@@ -2326,8 +2339,7 @@ containing a value of this type.
         public static final int decor_content_parent=0x7f0b004d;
         public static final int default_activity_button=0x7f0b0032;
         public static final int disableHome=0x7f0b0015;
-        public static final int editText=0x7f0b007b;
-        public static final int editText2=0x7f0b007e;
+        public static final int editText2=0x7f0b0093;
         public static final int edit_query=0x7f0b0051;
         public static final int edk_button=0x7f0b0062;
         public static final int end=0x7f0b0023;
@@ -2345,7 +2357,7 @@ containing a value of this type.
         public static final int line3=0x7f0b0077;
         public static final int listMode=0x7f0b0012;
         public static final int list_item=0x7f0b0033;
-        public static final int lista_all=0x7f0b007c;
+        public static final int lista_all=0x7f0b0092;
         public static final int lista_button=0x7f0b005e;
         public static final int media_actions=0x7f0b0069;
         public static final int middle=0x7f0b0024;
@@ -2379,6 +2391,16 @@ containing a value of this type.
         public static final int search_plate=0x7f0b0057;
         public static final int search_src_text=0x7f0b0058;
         public static final int search_voice_btn=0x7f0b005c;
+        public static final int seekBar1=0x7f0b007d;
+        public static final int seekBar10=0x7f0b008f;
+        public static final int seekBar2=0x7f0b007f;
+        public static final int seekBar3=0x7f0b0081;
+        public static final int seekBar4=0x7f0b0083;
+        public static final int seekBar5=0x7f0b0085;
+        public static final int seekBar6=0x7f0b0087;
+        public static final int seekBar7=0x7f0b0089;
+        public static final int seekBar8=0x7f0b008b;
+        public static final int seekBar9=0x7f0b008d;
         public static final int select_dialog_listview=0x7f0b005d;
         public static final int shortcut=0x7f0b0047;
         public static final int showCustom=0x7f0b0017;
@@ -2399,7 +2421,6 @@ containing a value of this type.
         public static final int text2=0x7f0b0076;
         public static final int textSpacerNoButtons=0x7f0b003d;
         public static final int textSpacerNoTitle=0x7f0b003c;
-        public static final int textView=0x7f0b007d;
         public static final int time=0x7f0b006e;
         public static final int title=0x7f0b0035;
         public static final int titleDividerNoCustom=0x7f0b0044;

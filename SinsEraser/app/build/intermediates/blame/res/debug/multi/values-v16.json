@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+        "outputFile": "D:\\git\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 116
                 },
                 "from": {
-                    "file": "C:\\Users\\MooVx\\.android\\build-cache\\8ca22e88182567993f918083dbba97ecf86f30cd\\output\\res\\values-v16\\values-v16.xml",
+                    "file": "C:\\Users\\Krasnal\\.android\\build-cache\\34e019c2ff207646dacc41d8d9fa679f375c3eae\\output\\res\\values-v16\\values-v16.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v12\\values-v12.xml",
+        "outputFile": "D:\\git\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v12\\values-v12.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 274
                 },
                 "from": {
-                    "file": "C:\\Users\\MooVx\\.android\\build-cache\\8ca22e88182567993f918083dbba97ecf86f30cd\\output\\res\\values-v12\\values-v12.xml",
+                    "file": "C:\\Users\\Krasnal\\.android\\build-cache\\34e019c2ff207646dacc41d8d9fa679f375c3eae\\output\\res\\values-v12\\values-v12.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -33,7 +33,7 @@
                     "endOffset": 474
                 },
                 "from": {
-                    "file": "C:\\Users\\MooVx\\.android\\build-cache\\8ca22e88182567993f918083dbba97ecf86f30cd\\output\\res\\values-v12\\values-v12.xml",
+                    "file": "C:\\Users\\Krasnal\\.android\\build-cache\\34e019c2ff207646dacc41d8d9fa679f375c3eae\\output\\res\\values-v12\\values-v12.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -53,7 +53,7 @@
                     "endOffset": 593
                 },
                 "from": {
-                    "file": "C:\\Users\\MooVx\\.android\\build-cache\\8ca22e88182567993f918083dbba97ecf86f30cd\\output\\res\\values-v12\\values-v12.xml",
+                    "file": "C:\\Users\\Krasnal\\.android\\build-cache\\34e019c2ff207646dacc41d8d9fa679f375c3eae\\output\\res\\values-v12\\values-v12.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -72,7 +72,7 @@
                     "endOffset": 688
                 },
                 "from": {
-                    "file": "C:\\Users\\MooVx\\.android\\build-cache\\8ca22e88182567993f918083dbba97ecf86f30cd\\output\\res\\values-v12\\values-v12.xml",
+                    "file": "C:\\Users\\Krasnal\\.android\\build-cache\\34e019c2ff207646dacc41d8d9fa679f375c3eae\\output\\res\\values-v12\\values-v12.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
