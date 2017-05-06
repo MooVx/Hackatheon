@@ -6,13 +6,26 @@
     android:layout_height="match_parent"
     tools:context="beczka.sinseraser.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/rachunek_layout"
+        android:layout_width="192dp"
+        android:layout_height="82dp"
+        android:text="Co cie trapi ?"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="51dp" />
 
+    <Button
+        android:id="@+id/trasa_layout"
+        android:layout_width="192dp"
+        android:layout_height="82dp"
+        android:text="Wyszukaj Trase"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <Button
+        android:id="@+id/edk_button"
+        android:layout_width="136dp"
+        android:layout_height="136dp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="310dp" />
 </android.support.constraint.ConstraintLayout>
