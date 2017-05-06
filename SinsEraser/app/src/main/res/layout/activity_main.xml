@@ -7,7 +7,7 @@
     tools:context="beczka.sinseraser.MainActivity">
 
     <Button
-        android:id="@+id/rachunek_button"
+        android:id="@+id/rachunek_layout"
         android:layout_width="192dp"
         android:layout_height="82dp"
         android:text="Co cie trapi ?"
@@ -15,7 +15,7 @@
         tools:layout_editor_absoluteY="51dp" />
 
     <Button
-        android:id="@+id/trasa_button"
+        android:id="@+id/trasa_layout"
         android:layout_width="192dp"
         android:layout_height="82dp"
         android:text="Wyszukaj Trase"
@@ -24,8 +24,26 @@
 
     <Button
         android:id="@+id/edk_button"
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="136dp"
         android:layout_height="136dp"
+        android:background="@mipmap/beczka_logo"
+        android:elevation="0dp"
+        android:onClick="web_edk_open"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <Button
+        android:id="@+id/Beczka_button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="136dp"
+        android:layout_height="136dp"
+        android:background="@mipmap/ic_launcher"
+        android:elevation="0dp"
+        android:onClick="web_beczka_open"
+        android:text=" "
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="340dp" />
         tools:layout_editor_absoluteX="442dp"
         tools:layout_editor_absoluteY="361dp" />
 
