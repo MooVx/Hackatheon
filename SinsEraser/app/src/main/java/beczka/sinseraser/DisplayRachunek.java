@@ -14,6 +14,6 @@ public class DisplayRachunek extends Activity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(rachunek_layout);
+        setContentView(R.layout.rachunek_layout);
     }
 }

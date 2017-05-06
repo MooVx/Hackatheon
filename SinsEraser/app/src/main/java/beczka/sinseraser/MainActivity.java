@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     {
         if(v.getId()== R.id.rachunek_button)
         {
-            Intent i = new Intent(MainActivity.this, Display.class);
+            Intent i = new Intent(MainActivity.this, DisplayRachunek.class);
             startActivity(i);
         }
     }
