@@ -1,0 +1,101 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml:2:1-48:12
+	package
+		ADDED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml:5:5-40:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\MooVx\.android\build-cache\8ca22e88182567993f918083dbba97ecf86f30cd\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\MooVx\.android\build-cache\927f74db9b82de905f2d8dd46d4535810200916d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\MooVx\.android\build-cache\06fe979a457ec9771e49371c44da081f431c7293\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\MooVx\.android\build-cache\cea2bd8c4ceb19e0c2f858a08cea022539070eeb\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\MooVx\.android\build-cache\2c1134a351bf20a657ffb591cb2f5ffb10e956b1\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\MooVx\.android\build-cache\53aacda0d429c89ed61e8f606efb9fbbdd826f28\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\MooVx\.android\build-cache\287a4464637e8ed2f52d07fc6419879bf21d6f77\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\MooVx\.android\build-cache\95658a1b3c7b59538f790c04fc4c6f8d44504f77\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\MooVx\.android\build-cache\310f34e6d0f5541e077832125fcf7dc015841dc7\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\MooVx\.android\build-cache\8cc9daa5e696ee4531a73c2e773250d10e079a19\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml:11:9-40
+activity#beczka.sinseraser.MainActivity
+ADDED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml:16:27-74
+activity#beczka.sinseraser.DisplayRachunek
+ADDED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml:20:9-24:20
+	android:name
+		ADDED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml:20:19-50
+intent-filter#android.intent.category.LAUNCHER
+ADDED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml:21:13-23:29
+activity#beczka.sinseraser.DisplayWyszukaj
+ADDED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml:26:9-30:20
+	android:name
+		ADDED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml:26:19-50
+activity#beczka.sinseraser.DisplayTrasy
+ADDED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml:32:9-36:20
+	android:name
+		ADDED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml:32:19-47
+uses-sdk
+INJECTED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\MooVx\.android\build-cache\8ca22e88182567993f918083dbba97ecf86f30cd\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\MooVx\.android\build-cache\927f74db9b82de905f2d8dd46d4535810200916d\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\MooVx\.android\build-cache\06fe979a457ec9771e49371c44da081f431c7293\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\MooVx\.android\build-cache\cea2bd8c4ceb19e0c2f858a08cea022539070eeb\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\MooVx\.android\build-cache\2c1134a351bf20a657ffb591cb2f5ffb10e956b1\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\MooVx\.android\build-cache\53aacda0d429c89ed61e8f606efb9fbbdd826f28\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\MooVx\.android\build-cache\287a4464637e8ed2f52d07fc6419879bf21d6f77\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\MooVx\.android\build-cache\95658a1b3c7b59538f790c04fc4c6f8d44504f77\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\MooVx\.android\build-cache\310f34e6d0f5541e077832125fcf7dc015841dc7\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\MooVx\.android\build-cache\8cc9daa5e696ee4531a73c2e773250d10e079a19\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\MooVx\.android\build-cache\8ca22e88182567993f918083dbba97ecf86f30cd\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\MooVx\.android\build-cache\8ca22e88182567993f918083dbba97ecf86f30cd\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\MooVx\.android\build-cache\927f74db9b82de905f2d8dd46d4535810200916d\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\MooVx\.android\build-cache\06fe979a457ec9771e49371c44da081f431c7293\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\MooVx\.android\build-cache\cea2bd8c4ceb19e0c2f858a08cea022539070eeb\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\MooVx\.android\build-cache\2c1134a351bf20a657ffb591cb2f5ffb10e956b1\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\MooVx\.android\build-cache\53aacda0d429c89ed61e8f606efb9fbbdd826f28\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\MooVx\.android\build-cache\287a4464637e8ed2f52d07fc6419879bf21d6f77\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\MooVx\.android\build-cache\95658a1b3c7b59538f790c04fc4c6f8d44504f77\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\MooVx\.android\build-cache\310f34e6d0f5541e077832125fcf7dc015841dc7\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\MooVx\.android\build-cache\8ca22e88182567993f918083dbba97ecf86f30cd\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\MooVx\.android\build-cache\8ca22e88182567993f918083dbba97ecf86f30cd\output\AndroidManifest.xml:26:9-47
