@@ -12,6 +12,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\libs\jtidy-r938.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8bb312dbbdfe40d396d4adf5691a528c33663bf9">
+        <dex dex="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\intermediates\transforms\dex\debug\folders\1000\2\jtidy-r938_22cef876b42a5e6b7cb253a5adfa790b796436f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\MooVx\.android\build-cache\06fe979a457ec9771e49371c44da081f431c7293\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
