@@ -1,7 +1,0 @@
-#Sat May 06 21:03:26 CEST 2017
-base.0=D\:\\git\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b8cde35d48065fe04fcd2d8805791143d4cfc43c
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=D\:\\git\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_422daf63561d448902da4eae8014a04f0a367e5e\\classes.dex
-base.1=D\:\\git\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_422daf63561d448902da4eae8014a04f0a367e5e
-file.0=D\:\\git\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b8cde35d48065fe04fcd2d8805791143d4cfc43c\\classes.dex

@@ -16,7 +16,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.widget.AdapterView.OnItemClickListener;
 
-import static beczka.sinseraser.R.layout.rachunek_layout;
+import static beczka.sinseraser.R;
 
 
 
