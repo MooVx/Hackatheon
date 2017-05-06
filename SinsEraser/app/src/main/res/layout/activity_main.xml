@@ -7,7 +7,7 @@
     tools:context="beczka.sinseraser.MainActivity">
 
     <Button
-        android:id="@+id/rachunek_layout"
+        android:id="@+id/rachunek_button"
         android:layout_width="192dp"
         android:layout_height="82dp"
         android:text="Co cie trapi ?"
@@ -15,7 +15,7 @@
         tools:layout_editor_absoluteY="51dp" />
 
     <Button
-        android:id="@+id/trasa_layout"
+        android:id="@+id/trasa_button"
         android:layout_width="192dp"
         android:layout_height="82dp"
         android:text="Wyszukaj Trase"
@@ -26,6 +26,7 @@
         android:id="@+id/edk_button"
         android:layout_width="136dp"
         android:layout_height="136dp"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="310dp" />
+        tools:layout_editor_absoluteX="442dp"
+        tools:layout_editor_absoluteY="361dp" />
+
 </android.support.constraint.ConstraintLayout>
