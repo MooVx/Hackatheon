@@ -7,47 +7,51 @@
     tools:context="beczka.sinseraser.MainActivity">
 
     <Button
-        android:id="@+id/rachunek_layout"
+        android:id="@+id/rachunek_button"
         android:layout_width="192dp"
         android:layout_height="82dp"
         android:text="Co cie trapi ?"
-        tools:layout_editor_absoluteX="96dp"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="25dp" />
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <Button
-        android:id="@+id/trasa_layout"
+        android:id="@+id/trasa_button"
         android:layout_width="192dp"
         android:layout_height="82dp"
-        android:text="Wyszukaj Trase"
-        tools:layout_editor_absoluteX="96dp"
         android:layout_marginTop="35dp"
-        app:layout_constraintTop_toBottomOf="@+id/rachunek_layout" />
+        android:text="Wyszukaj Trase"
+        app:layout_constraintTop_toBottomOf="@+id/rachunek_button"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="@+id/rachunek_button" />
 
     <Button
+        android:id="@+id/beczka_button"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_marginRight="25dp"
+        android:layout_marginRight="16dp"
         android:layout_marginTop="-2dp"
         android:background="@mipmap/beczka_logo"
         android:elevation="0dp"
-        android:onClick="web_edk_open"
+        android:onClick="web_beczka_open"
         android:visibility="visible"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/edk_button"
-        android:layout_marginBottom="30dp" />
+        app:layout_constraintTop_toTopOf="@+id/edk_button" />
 
     <Button
         android:id="@+id/edk_button"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_marginBottom="32dp"
-        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="28dp"
         android:background="@mipmap/ic_launcher"
         android:elevation="0dp"
-        android:onClick="web_beczka_open"
+        android:onClick="web_edk_open"
         android:text="  "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
