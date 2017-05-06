@@ -36,6 +36,24 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void OnWyszukajClick (View v)
+    {
+        if(v.getId()== R.id.trasa_button)
+        {
+            Intent i = new Intent(MainActivity.this, DisplayWyszukaj.class);
+            startActivity(i);
+        }
+    }
+
+
+    public void OnTrasyClick (View v)
+    {
+        if(v.getId()== R.id.lista_button)
+        {
+            Intent i = new Intent(MainActivity.this, DisplayTrasy.class);
+            startActivity(i);
+        }
+    }
 
 
     public void web_edk_open(View view) {

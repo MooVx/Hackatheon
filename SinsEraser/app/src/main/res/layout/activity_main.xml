@@ -36,6 +36,7 @@
         android:id="@+id/trasa_button"
         android:layout_width="192dp"
         android:layout_height="82dp"
+        android:onClick="OnWyszukajClick"
         android:layout_marginTop="20dp"
         android:text="Wyszukaj Trase"
         app:layout_constraintTop_toBottomOf="@+id/rachunek_button"
