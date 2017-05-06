@@ -12,6 +12,7 @@ import android.widget.AdapterView.OnItemClickListener;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -32,6 +33,7 @@ public class DisplayTrasy extends Activity {
             TracksBase.readFromFile(getAssets().open("data"));
         } catch (Exception e) {
         }
+
         String cars[] = TracksBase.allTracks();
 
         ArrayList<String> carL = new ArrayList<String>();
@@ -52,7 +54,7 @@ public class DisplayTrasy extends Activity {
                 final Track currentTrack = TracksBase.tracksMap.get(((TextView) view).getText());
 
                 AlertDialog alertDialog = new AlertDialog.Builder(DisplayTrasy.this).create();
-                alertDialog.setTitle(((TextView) view).getText());
+                alertDialog.setTitle(currentTrack.getName());
                 alertDialog.setMessage(currentTrack.getSecondLevel());
 
                 alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, "przejdź",

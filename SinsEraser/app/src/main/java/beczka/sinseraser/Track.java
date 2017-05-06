@@ -1,6 +1,8 @@
 package beczka.sinseraser;
 
-public class Track {
+import android.support.annotation.NonNull;
+
+public class Track implements Comparable<Track> {
 
     private String firstLevel;
     private String secondLevel;
@@ -12,34 +14,51 @@ public class Track {
     private String name;
     private int distance;
 
-    Track(String firstLevel, String secondLevel, String link, String distance) {
-        this.firstLevel = firstLevel;
-        this.secondLevel = secondLevel;
-        this.link = link;
-        this.distance = Integer.parseInt(distance);
-
-    }
-
-    public int getDistance() {
-        return distance;
-    }
-
-    public String getFirstLevel() {
+    public String getFirstLevel(){
         return firstLevel;
     }
 
-    public String getSecondLevel() {
+    public String getName(){
+        return name;
+    }
+
+    public int getDistance()
+    {
+        return distance;
+    }
+
+    public String getSecondLevel(){
         return secondLevel;
     }
 
-    public String getLink() {
+    public String getLink(){
         return link;
     }
 
-    private int convertToInteger(String distance) {
-        String[] tmp = distance.split("\\s");
-        //System.out.println("ilosc kilometrów "+tmp[1]);
-        return Integer.parseInt(tmp[0]);
+    public int compareTo(@NonNull Track other)
+    {
+        return firstLevel.compareTo(other.firstLevel);
+    }
+
+    Track(String[] tab){
+        this.firstLevel=tab[0];
+        this.startCity=tab[2];
+        this.endCity=tab[3];
+        this.link=tab[4];
+        this.distance=Integer.parseInt(tab[5]);
+
+        StringBuilder nameBuilder = new StringBuilder();
+        nameBuilder.append(tab[1]);
+        nameBuilder.append(" ");
+        nameBuilder.append(tab[5]);
+        nameBuilder.append(" km");
+        this.name = nameBuilder.toString();
+
+        StringBuilder secondLevelBuilder = new StringBuilder();
+        secondLevelBuilder.append(tab[2]);
+        secondLevelBuilder.append(" --> ");
+        secondLevelBuilder.append(tab[3]);
+        secondLevel = secondLevelBuilder.toString();
     }
 
 

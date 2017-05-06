@@ -6,23 +6,26 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1494106980752"
+    timestamp="1494109303820"
     token="-4299726281731782093"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="141" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="16" />
     <task
         name="verifier"
         duration="0" />
 
+    <artifact
+        location="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
     <artifact
         location="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\outputs\apk\app-debug.apk"
         type="SPLIT_MAIN" />
@@ -70,8 +73,19 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1494106980752"
+        timestamp="1494109060190"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1494109303820"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
