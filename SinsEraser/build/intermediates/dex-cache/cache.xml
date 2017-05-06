@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\MooVx\.android\build-cache\cea2bd8c4ceb19e0c2f858a08cea022539070eeb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_95a7f123baac41f8c846e58e88f7d215cc3ab40a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\MooVx\.android\build-cache\06fe979a457ec9771e49371c44da081f431c7293\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_adaca5cb8d7b4b3fc086740a1d193847e7733f0d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\MooVx\.android\build-cache\287a4464637e8ed2f52d07fc6419879bf21d6f77\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0bea6262445b3a9701cc566bd75a83344abae7ee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\MooVx\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_b20b95192028bdbc93142e427c4d4eb01b5270cc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\MooVx\.android\build-cache\2c1134a351bf20a657ffb591cb2f5ffb10e956b1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_635ac73c01eabef7a0f5b3766adee18e1f40fc5a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\MooVx\.android\build-cache\310f34e6d0f5541e077832125fcf7dc015841dc7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_832fd1ae8033e4f33afd9fc26c1b13cd629f0f21\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\MooVx\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_400c99475d63102d0389d047a2aa32c1a1f943f5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_8778da0a721cc413b048666583c1d79883d8e273\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ab34729e3aafec19515db4490809e96c10106da7">
+        <dex dex="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_64be9b4f01a925dae0981894e56fed2db03ee439\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\MooVx\.android\build-cache\53aacda0d429c89ed61e8f606efb9fbbdd826f28\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_104d9315a3e99a9cb37479fca6d8bc6822246661\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\MooVx\.android\build-cache\8ca22e88182567993f918083dbba97ecf86f30cd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_128d340540c0137822691923f7bd98320abe3c97\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\MooVx\.android\build-cache\8cc9daa5e696ee4531a73c2e773250d10e079a19\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a225c880c35cbc716e09e997cd58a0e6cda790fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\MooVx\.android\build-cache\95658a1b3c7b59538f790c04fc4c6f8d44504f77\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a476cfd927b1f9946807e5055b37d52a331ec163\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\MooVx\.android\build-cache\927f74db9b82de905f2d8dd46d4535810200916d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a81b28fc667b569473f7aab58af4169b657db5c3\classes.dex" />
+    </item>
+
+</items>

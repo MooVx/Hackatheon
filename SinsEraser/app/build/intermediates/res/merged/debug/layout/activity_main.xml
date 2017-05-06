@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="beczka.sinseraser.MainActivity">
+
+    <Button
+        android:id="@+id/lista_button"
+        android:layout_width="192dp"
+        android:layout_height="82dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="8dp"
+        android:onClick="OnTrasyClick"
+        android:text="Wszystkie Trasy"
+        app:layout_constraintRight_toRightOf="@+id/trasa_button"
+        app:layout_constraintTop_toBottomOf="@+id/trasa_button" />
+
+    <Button
+        android:id="@+id/rachunek_button"
+        android:layout_width="192dp"
+        android:layout_height="82dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="20dp"
+        android:onClick="OnRachunekClick"
+        android:text="Co cie trapi ?"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <Button
+        android:id="@+id/trasa_button"
+        android:layout_width="192dp"
+        android:layout_height="82dp"
+        android:onClick="OnWyszukajClick"
+        android:layout_marginTop="20dp"
+        android:text="Wyszukaj Trase"
+        app:layout_constraintTop_toBottomOf="@+id/rachunek_button"
+        app:layout_constraintRight_toRightOf="@+id/rachunek_button"
+        android:layout_marginRight="0dp" />
+
+    <Button
+        android:id="@+id/beczka_button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginRight="16dp"
+        android:background="@mipmap/beczka_logo"
+        android:elevation="0dp"
+        android:onClick="web_beczka_open"
+        android:visibility="visible"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/edk_button"
+        android:layout_marginEnd="16dp" />
+
+    <Button
+        android:id="@+id/edk_button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="27dp"
+        android:background="@mipmap/ic_launcher"
+        android:elevation="0dp"
+        android:onClick="web_edk_open"
+        android:text="  "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:text=" "
+        android:layout_marginStart="27dp" /><![CDATA[
+
+
+
+
+
+    tools:layout_editor_absoluteX="442dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+
+
+]]>
+</android.support.constraint.ConstraintLayout>
