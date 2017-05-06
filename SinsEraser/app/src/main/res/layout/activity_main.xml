@@ -7,45 +7,50 @@
     tools:context="beczka.sinseraser.MainActivity">
 
     <Button
-        android:id="@+id/rachunek_button"
+        android:id="@+id/rachunek_layout"
         android:layout_width="192dp"
         android:layout_height="82dp"
         android:text="Co cie trapi ?"
         tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="51dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="25dp" />
 
     <Button
-        android:id="@+id/trasa_button"
+        android:id="@+id/trasa_layout"
         android:layout_width="192dp"
         android:layout_height="82dp"
         android:text="Wyszukaj Trase"
         tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="185dp" />
+        android:layout_marginTop="35dp"
+        app:layout_constraintTop_toBottomOf="@+id/rachunek_layout" />
 
     <Button
-        android:id="@+id/beczka_button"
-        style="@style/Widget.AppCompat.Button"
-        android:layout_width="136dp"
-        android:layout_height="136dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="-2dp"
         android:background="@mipmap/beczka_logo"
         android:elevation="0dp"
         android:onClick="web_edk_open"
         android:visibility="visible"
-        tools:layout_editor_absoluteX="206dp"
-        tools:layout_editor_absoluteY="340dp" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/edk_button"
+        android:layout_marginBottom="30dp" />
 
     <Button
         android:id="@+id/edk_button"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="136dp"
-        android:layout_height="136dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="25dp"
         android:background="@mipmap/ic_launcher"
         android:elevation="0dp"
         android:onClick="web_beczka_open"
         android:text="  "
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="340dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
         tools:text=" " />
         tools:layout_editor_absoluteX="442dp"
         tools:layout_editor_absoluteY="361dp" />
