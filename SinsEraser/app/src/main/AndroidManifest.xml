@@ -18,5 +18,9 @@
         </activity>
     </application>
 
+    <activity android:name=".Display"></activity>
+
+
+
 
 </manifest>

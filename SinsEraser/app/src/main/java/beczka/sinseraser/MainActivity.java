@@ -6,6 +6,11 @@ import android.provider.Browser;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Display;
+import android.view.Menu;
+import android.view.View;
+import android.content.Intent;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,6 +25,18 @@ public class MainActivity extends AppCompatActivity {
         Intent browserIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.beczka.krakow.dominikanie.pl/"));
         startActivity(browserIntent);
     }
+
+    public void OnRachunekClick (View v)
+    {
+        if(v.getId()== R.id.rachunek_button)
+        {
+            Intent i = new Intent(MainActivity.this, Display.class);
+            startActivity(i);
+        }
+    }
+
+
+
 
     public void web_edk_open(View view) {
         Intent browserIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.edk.org.pl/"));
