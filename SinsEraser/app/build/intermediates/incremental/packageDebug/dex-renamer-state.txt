@@ -1,4 +1,4 @@
-#Sat May 06 22:56:59 CEST 2017
+#Sat May 06 23:43:01 CEST 2017
 base.0=C\:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_64be9b4f01a925dae0981894e56fed2db03ee439
 renamed.1=classes2.dex
 renamed.0=classes.dex

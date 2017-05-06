@@ -3,9 +3,6 @@ package beczka.sinseraser;
 import android.app.Activity;
 import android.os.Bundle;
 
-/**
- * Created by Krasnal on 06.05.2017.
- */
 
 public class DisplayWyszukaj extends Activity
 {

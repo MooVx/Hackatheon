@@ -6,13 +6,13 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1494104421713"
+    timestamp="1494106980752"
     token="-4299726281731782093"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="187" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
@@ -24,19 +24,13 @@
         duration="0" />
 
     <artifact
-        location="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
         location="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\outputs\apk\app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1494104217888"
+        timestamp="1494105552296"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
@@ -70,22 +64,14 @@
         <artifact
             location="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1494104350994"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1494104421713"
+        timestamp="1494106980752"
         verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
         <artifact
             location="C:\Users\MooVx\Desktop\Hackatheon\SinsEraser\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />

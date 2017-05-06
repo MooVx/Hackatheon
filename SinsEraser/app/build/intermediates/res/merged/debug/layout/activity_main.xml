@@ -64,14 +64,14 @@
         android:layout_height="150dp"
         android:layout_marginBottom="30dp"
         android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
         android:background="@mipmap/ic_launcher"
         android:elevation="0dp"
         android:onClick="web_edk_open"
         android:text="  "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        tools:text=" "
-        android:layout_marginStart="27dp" /><![CDATA[
+        tools:text=" " /><![CDATA[
 
 
 

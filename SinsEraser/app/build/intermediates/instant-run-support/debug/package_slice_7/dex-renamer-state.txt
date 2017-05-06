@@ -1,4 +1,4 @@
-#Sat May 06 23:00:22 CEST 2017
+#Sat May 06 23:16:57 CEST 2017
 base.0=C\:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7
 renamed.0=classes.dex
 file.0=C\:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7\\classes.dex
