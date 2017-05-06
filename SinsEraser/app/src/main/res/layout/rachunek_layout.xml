@@ -16,4 +16,5 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Tutaj jest rachunek sumienia" />
+
 </LinearLayout>
