@@ -47,18 +47,9 @@ public class Track {
         this.secondLevel=secondLevel;
         this.link=link;
         this.distance=Integer.parseInt(distance);
-    }
-    Track(String name, String area, String startCity, String endCity, String distance,String link){
-        this.startCity=startCity.replaceAll("\\s{2,}", "");
-        this.endCity=endCity.replaceAll("\\s{2,}", "");
-        this.name=name.replaceAll("\\s{2,}", "");
-        this.area=area.replaceAll("\\s{2,}", "");
-        this.link=link;
 
-        this.distance=convertToInteger(distance.replaceAll("\\s{2,}", ""));
-        this.firstLevel=this.startCity+" "+this.distance+" km";
-        this.secondLevel=this.name+" "+this.startCity+" "+this.endCity;
     }
+
 
     private int convertToInteger(String distance){
         String[] tmp = distance.split("\\s");

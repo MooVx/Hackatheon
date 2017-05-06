@@ -79,7 +79,8 @@ public class DisplayTrasy extends Activity
 
                 AlertDialog alertDialog = new AlertDialog.Builder(DisplayTrasy.this).create();
                 alertDialog.setTitle(((TextView) view).getText());
-                alertDialog.setMessage(currentTrack.getStartCity());
+                alertDialog.setMessage(currentTrack.getSecondLevel());
+
                 alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, "przejdź",
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
