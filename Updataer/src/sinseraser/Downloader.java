@@ -101,26 +101,35 @@ static String prepareXMLPage(String pageHTML) {
 }
 	public static void parseXml(String page) throws ParserConfigurationException, UnsupportedEncodingException, SAXException, IOException, XPathExpressionException{
 		String parser = "//tbody[@id='fbody']/tr";
+		String parseLink = "//tbody[@id='fbody']/tr/td[1]/a/@href";
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = factory.newDocumentBuilder();
 		
 		org.w3c.dom.Document doc = builder.parse(new ByteArrayInputStream(page.getBytes("UTF-8")));
 		XPathFactory xPathfactory = XPathFactory.newInstance();
 		XPath xpath = xPathfactory.newXPath();
-		XPathExpression expr = xpath.compile(parser);
 		
+		
+		
+		
+			
 		NodeList test = (NodeList) xpath.compile(parser).evaluate(doc, XPathConstants.NODESET);
+		NodeList links = (NodeList) xpath.compile(parseLink).evaluate(doc, XPathConstants.NODESET);
+		System.out.println("liczba tras "+test.getLength()+" liczba linkow "+links.getLength());
 		
 		for(int i=0; i <test.getLength();i++){
 			org.w3c.dom.Node nod = test.item(i);
 			NodeList child = (NodeList) test.item(i);
+			//System.out.println(child.item(1).getTextContent()+" "+child.item(3).getTextContent()+" "+child.item(5).getTextContent()+" "+child.item(7).getTextContent()+" "+child.item(9).getTextContent()+" "+links.item(i).getTextContent());
+
 			for(int j=0; j<child.getLength(); j++){
-				//System.out.println(child.item(1).getTextContent()+" "+child.item(3).getTextContent()+" "+child.item(5).getTextContent()+" "+child.item(7).getTextContent()+" "+child.item(9).getTextContent());
-				TracksBase.tracksMap.put(i, new Track(child.item(1).getTextContent(),child.item(3).getTextContent(),child.item(5).getTextContent(),child.item(7).getTextContent(),child.item(9).getTextContent() ));
+				
+				//System.out.println(child.item(1).getTextContent()+" "+child.item(3).getTextContent()+" "+child.item(5).getTextContent()+" "+child.item(7).getTextContent()+" "+child.item(9).getTextContent()+" "+links.item(i));
+				TracksBase.tracksMap.put(i, new Track(child.item(1).getTextContent(),child.item(3).getTextContent(),child.item(5).getTextContent(),child.item(7).getTextContent(),child.item(9).getTextContent(),links.item(i).getTextContent() ));
 				
 			}
 		}
-		
+		TracksBase.saveToFile();
 		//System.out.println("ilosc tras "+test.getLength());
 	}
 	
