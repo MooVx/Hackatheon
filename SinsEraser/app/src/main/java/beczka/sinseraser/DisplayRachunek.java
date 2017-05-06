@@ -2,6 +2,7 @@ package beczka.sinseraser;
 
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.ScrollView;
@@ -60,6 +61,8 @@ public class DisplayRachunek extends Activity {
         alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, "Szukaj trase",
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
+                            Intent i = new Intent(DisplayRachunek.this, DisplayWyszukaj.class);
+                            startActivity(i);
 
                         dialog.dismiss();
                     }
@@ -89,8 +92,19 @@ public class DisplayRachunek extends Activity {
         return result;
     }
 
+    public static int calculateDistanceFromPoints()
+    {
+        return (int) (20 + ((double)DisplayRachunek.result / 9.1));
+    }
+
     public void PrintResult() {
-        ((TextView) findViewById(R.id.Text)).setText("Zdobyłeś łącznie : " + result + " punktów!");
+
+        StringBuilder messageBuilder = new StringBuilder();
+        messageBuilder.append("Gratuluję, zdobyłeś łącznie : ");
+        messageBuilder.append(result);
+        messageBuilder.append(" punktów!");
+
+        ((TextView) findViewById(R.id.Text)).setText(messageBuilder.toString());
     }
 
     public void PrintSins() {
