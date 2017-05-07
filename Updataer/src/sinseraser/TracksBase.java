@@ -19,9 +19,10 @@ public class TracksBase {
 	public static Map<Integer,Track> tracksMap = new HashMap<Integer,Track>();
 	static String page;
 	
-	public static void main(String [] args){
+	public static void main(String [] args) throws IOException{
 		//readFromFile();
-		updateTracks();
+		//updateTracks();
+		System.out.println(Consider.contenplation(1));
 	}
 	public static  void saveToFile() throws IOException{
 		FileOutputStream file = new FileOutputStream("data");
