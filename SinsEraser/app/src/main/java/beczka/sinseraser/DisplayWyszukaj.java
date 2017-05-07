@@ -48,6 +48,7 @@ public class DisplayWyszukaj extends Activity {
                                     int position, long id) {
 
                 final Track currentTrack = TracksBase.tracksMap.get(((TextView) view).getText());
+                String cars[] = TracksBase.proposeTracks(DisplayRachunek.calculateDistanceFromPoints());
 
                 AlertDialog alertDialog = new AlertDialog.Builder(DisplayWyszukaj.this).create();
                 alertDialog.setTitle(currentTrack.getName());

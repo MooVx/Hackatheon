@@ -70,6 +70,8 @@ public class DisplayRachunek extends Activity {
         alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "Dobierz rozważania",
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
+                        Intent i = new Intent(DisplayRachunek.this, DisplayRoz.class);
+                        startActivity(i);
                         dialog.dismiss();
                     }
                 });
@@ -77,7 +79,7 @@ public class DisplayRachunek extends Activity {
     }
 
     public int CalcPoints() {
-        result = ((SeekBar) findViewById(R.id.seekBar1)).getProgress() +
+        result = (int)((((SeekBar) findViewById(R.id.seekBar1)).getProgress() +
                 ((SeekBar) findViewById(R.id.seekBar2)).getProgress() +
                 ((SeekBar) findViewById(R.id.seekBar3)).getProgress() +
                 ((SeekBar) findViewById(R.id.seekBar4)).getProgress() +
@@ -86,7 +88,7 @@ public class DisplayRachunek extends Activity {
                 ((SeekBar) findViewById(R.id.seekBar7)).getProgress() +
                 ((SeekBar) findViewById(R.id.seekBar8)).getProgress() +
                 ((SeekBar) findViewById(R.id.seekBar9)).getProgress() +
-                ((SeekBar) findViewById(R.id.seekBar10)).getProgress();
+                ((SeekBar) findViewById(R.id.seekBar10)).getProgress())*(((SeekBar)findViewById(R.id.Kondycja)).getProgress())/100);
 
 
         return result;

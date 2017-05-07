@@ -35,6 +35,17 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".DisplayRoz">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".DisplayTextRoz">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
 
     </application>

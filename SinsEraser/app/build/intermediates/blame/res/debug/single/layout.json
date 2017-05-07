@@ -56,6 +56,10 @@
         "source": "C:\\Users\\MooVx\\.android\\build-cache\\8ca22e88182567993f918083dbba97ecf86f30cd\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
+        "merged": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\text_layout.xml",
+        "source": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\src\\main\\res\\layout\\text_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "C:\\Users\\MooVx\\.android\\build-cache\\8ca22e88182567993f918083dbba97ecf86f30cd\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
@@ -126,6 +130,10 @@
     {
         "merged": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "C:\\Users\\MooVx\\.android\\build-cache\\8ca22e88182567993f918083dbba97ecf86f30cd\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\stacje_layout.xml",
+        "source": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\src\\main\\res\\layout\\stacje_layout.xml"
     },
     {
         "merged": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",

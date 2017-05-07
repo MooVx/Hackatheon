@@ -2285,7 +2285,8 @@ containing a value of this type.
         public static final int notify_panel_notification_icon_bg=0x7f02005c;
     }
     public static final class id {
-        public static final int EndSins=0x7f0b0091;
+        public static final int EndSins=0x7f0b0093;
+        public static final int Kondycja=0x7f0b0091;
         public static final int ScrollViev=0x7f0b007a;
         public static final int Sin1=0x7f0b007c;
         public static final int Sin10=0x7f0b008e;
@@ -2297,7 +2298,7 @@ containing a value of this type.
         public static final int Sin7=0x7f0b0088;
         public static final int Sin8=0x7f0b008a;
         public static final int Sin9=0x7f0b008c;
-        public static final int Text=0x7f0b0090;
+        public static final int Text=0x7f0b0092;
         public static final int Title=0x7f0b007b;
         public static final int action0=0x7f0b0066;
         public static final int action_bar=0x7f0b004f;
@@ -2323,8 +2324,22 @@ containing a value of this type.
         public static final int alertTitle=0x7f0b0043;
         public static final int all=0x7f0b000e;
         public static final int always=0x7f0b0025;
+        public static final int b1=0x7f0b00a1;
+        public static final int b10=0x7f0b0098;
+        public static final int b11=0x7f0b0097;
+        public static final int b12=0x7f0b0096;
+        public static final int b13=0x7f0b0095;
+        public static final int b14=0x7f0b0094;
+        public static final int b2=0x7f0b00a0;
+        public static final int b3=0x7f0b009f;
+        public static final int b4=0x7f0b009e;
+        public static final int b5=0x7f0b009d;
+        public static final int b6=0x7f0b009c;
+        public static final int b7=0x7f0b009b;
+        public static final int b8=0x7f0b009a;
+        public static final int b9=0x7f0b0099;
         public static final int basic=0x7f0b000f;
-        public static final int beczka_button=0x7f0b0061;
+        public static final int beczka_button=0x7f0b005f;
         public static final int beginning=0x7f0b0022;
         public static final int bottom=0x7f0b002a;
         public static final int buttonPanel=0x7f0b0036;
@@ -2339,6 +2354,8 @@ containing a value of this type.
         public static final int decor_content_parent=0x7f0b004d;
         public static final int default_activity_button=0x7f0b0032;
         public static final int disableHome=0x7f0b0015;
+        public static final int editText=0x7f0b00a2;
+        public static final int editText2=0x7f0b0090;
         public static final int edit_query=0x7f0b0051;
         public static final int edk_button=0x7f0b0062;
         public static final int end=0x7f0b0023;
@@ -2356,7 +2373,7 @@ containing a value of this type.
         public static final int line3=0x7f0b0077;
         public static final int listMode=0x7f0b0012;
         public static final int list_item=0x7f0b0033;
-        public static final int lista_all=0x7f0b0092;
+        public static final int lista_all=0x7f0b00a3;
         public static final int lista_button=0x7f0b005e;
         public static final int media_actions=0x7f0b0069;
         public static final int middle=0x7f0b0024;
@@ -2426,7 +2443,7 @@ containing a value of this type.
         public static final int title_template=0x7f0b0042;
         public static final int top=0x7f0b002b;
         public static final int topPanel=0x7f0b0041;
-        public static final int trasa_button=0x7f0b005f;
+        public static final int trasa_button=0x7f0b0061;
         public static final int up=0x7f0b0008;
         public static final int useLogo=0x7f0b001a;
         public static final int withText=0x7f0b0029;
@@ -2487,14 +2504,33 @@ containing a value of this type.
         public static final int select_dialog_item_material=0x7f04002c;
         public static final int select_dialog_multichoice_material=0x7f04002d;
         public static final int select_dialog_singlechoice_material=0x7f04002e;
-        public static final int support_simple_spinner_dropdown_item=0x7f04002f;
-        public static final int trasy_layout=0x7f040030;
-        public static final int wyszukaj_layout=0x7f040031;
+        public static final int stacje_layout=0x7f04002f;
+        public static final int support_simple_spinner_dropdown_item=0x7f040030;
+        public static final int text_layout=0x7f040031;
+        public static final int trasy_layout=0x7f040032;
+        public static final int wyszukaj_layout=0x7f040033;
     }
     public static final class mipmap {
-        public static final int beczka_logo=0x7f030000;
-        public static final int ic_launcher=0x7f030001;
-        public static final int ic_launcher_round=0x7f030002;
+        public static final int all_route=0x7f030000;
+        public static final int beczka_logo=0x7f030001;
+        public static final int e1=0x7f030002;
+        public static final int e10=0x7f030003;
+        public static final int e11=0x7f030004;
+        public static final int e12=0x7f030005;
+        public static final int e13=0x7f030006;
+        public static final int e14=0x7f030007;
+        public static final int e2=0x7f030008;
+        public static final int e3=0x7f030009;
+        public static final int e4=0x7f03000a;
+        public static final int e5=0x7f03000b;
+        public static final int e6=0x7f03000c;
+        public static final int e7=0x7f03000d;
+        public static final int e8=0x7f03000e;
+        public static final int e9=0x7f03000f;
+        public static final int ic_launcher=0x7f030010;
+        public static final int ic_launcher_round=0x7f030011;
+        public static final int roood=0x7f030012;
+        public static final int utrapienie=0x7f030013;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f060000;

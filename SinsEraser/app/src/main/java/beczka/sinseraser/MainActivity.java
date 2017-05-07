@@ -38,11 +38,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void OnWyszukajClick (View v)
+    public void OnRozClick (View v)
     {
         if(v.getId()== R.id.trasa_button)
         {
-            Intent i = new Intent(MainActivity.this, DisplayWyszukaj.class);
+            Intent i = new Intent(MainActivity.this, DisplayRoz.class);
             startActivity(i);
         }
     }

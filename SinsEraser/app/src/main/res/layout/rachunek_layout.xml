@@ -20,12 +20,13 @@
                 android:id="@+id/Title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
                 android:clickable="false"
                 android:cursorVisible="false"
+                android:ems="10"
                 android:focusable="false"
                 android:focusableInTouchMode="false"
-                android:text="Tutaj możesz zdobyć trochę punktów!" />
+                android:text="Tutaj możesz zdobyć trochę punktów!"
+                android:textAlignment="center" />
 
             <Space
                 android:layout_width="match_parent"
@@ -245,12 +246,34 @@
                 android:layout_height="50dp" />
 
             <EditText
-                android:id="@+id/Text"
+                android:id="@+id/editText2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:inputType="textPersonName"
                 android:clickable="false"
                 android:cursorVisible="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="Jak oceniasz swoją kondycję?" />
+
+            <SeekBar
+                android:id="@+id/Kondycja"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:progress="50" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <EditText
+                android:id="@+id/Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:ems="10"
                 android:focusable="false"
                 android:focusableInTouchMode="false"
                 android:inputType="textPersonName"

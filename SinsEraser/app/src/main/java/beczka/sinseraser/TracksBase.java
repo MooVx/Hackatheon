@@ -61,6 +61,8 @@ public class TracksBase {
                 tmp.add(entry.getValue().getFirstLevel());
         }
 
+        Collections.sort(tmp);
+
         return tmp.toArray(new String[tmp.size()]);
     }
 

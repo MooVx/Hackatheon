@@ -1,14 +1,82 @@
 [
     {
+        "merged": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\e14.png",
+        "source": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\src\\main\\res\\mipmap-xxxhdpi\\e14.png"
+    },
+    {
+        "merged": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\e8.png",
+        "source": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\src\\main\\res\\mipmap-xxxhdpi\\e8.png"
+    },
+    {
+        "merged": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\roood.png",
+        "source": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\src\\main\\res\\mipmap-xxxhdpi\\roood.png"
+    },
+    {
+        "merged": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\e5.png",
+        "source": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\src\\main\\res\\mipmap-xxxhdpi\\e5.png"
+    },
+    {
+        "merged": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\e13.png",
+        "source": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\src\\main\\res\\mipmap-xxxhdpi\\e13.png"
+    },
+    {
+        "merged": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\e4.png",
+        "source": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\src\\main\\res\\mipmap-xxxhdpi\\e4.png"
+    },
+    {
+        "merged": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\e10.png",
+        "source": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\src\\main\\res\\mipmap-xxxhdpi\\e10.png"
+    },
+    {
         "merged": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher_round.png",
         "source": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\e2.png",
+        "source": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\src\\main\\res\\mipmap-xxxhdpi\\e2.png"
+    },
+    {
+        "merged": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\e7.png",
+        "source": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\src\\main\\res\\mipmap-xxxhdpi\\e7.png"
     },
     {
         "merged": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\beczka_logo.png",
         "source": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\src\\main\\res\\mipmap-xxxhdpi\\beczka_logo.png"
     },
     {
+        "merged": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\all_route.png",
+        "source": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\src\\main\\res\\mipmap-xxxhdpi\\all_route.png"
+    },
+    {
+        "merged": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\e12.png",
+        "source": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\src\\main\\res\\mipmap-xxxhdpi\\e12.png"
+    },
+    {
+        "merged": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\utrapienie.png",
+        "source": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\src\\main\\res\\mipmap-xxxhdpi\\utrapienie.png"
+    },
+    {
+        "merged": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\e9.png",
+        "source": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\src\\main\\res\\mipmap-xxxhdpi\\e9.png"
+    },
+    {
+        "merged": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\e1.png",
+        "source": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\src\\main\\res\\mipmap-xxxhdpi\\e1.png"
+    },
+    {
+        "merged": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\e6.png",
+        "source": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\src\\main\\res\\mipmap-xxxhdpi\\e6.png"
+    },
+    {
+        "merged": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\e11.png",
+        "source": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\src\\main\\res\\mipmap-xxxhdpi\\e11.png"
+    },
+    {
         "merged": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
         "source": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\e3.png",
+        "source": "C:\\Users\\MooVx\\Desktop\\Hackatheon\\SinsEraser\\app\\src\\main\\res\\mipmap-xxxhdpi\\e3.png"
     }
 ]

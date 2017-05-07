@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="beczka.sinseraser.MainActivity">
+
+    <Button
+        android:id="@+id/b14"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@mipmap/e14"
+        android:elevation="0dp"
+        android:onClick="OnB14"
+        android:text="  "
+        android:visibility="visible"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b13"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="78dp"
+        android:layout_marginTop="47dp"
+        android:background="@mipmap/e13"
+        android:elevation="0dp"
+        android:onClick="OnB13"
+        android:text="  "
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b12"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="145dp"
+        android:layout_marginTop="80dp"
+        android:background="@mipmap/e12"
+        android:elevation="0dp"
+        android:onClick="OnB12"
+        android:text="  "
+        android:visibility="visible"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b11"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="215dp"
+        android:layout_marginTop="110dp"
+        android:background="@mipmap/e11"
+        android:elevation="0dp"
+        android:onClick="OnB11"
+        android:text="  "
+        android:visibility="visible"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b10"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="285dp"
+        android:layout_marginTop="134dp"
+        android:background="@mipmap/e10"
+        android:elevation="0dp"
+        android:onClick="OnB10"
+        android:text="  "
+        android:visibility="visible"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b9"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="238dp"
+        android:layout_marginTop="192dp"
+        android:background="@mipmap/e9"
+        android:elevation="0dp"
+        android:onClick="OnB9"
+        android:text="  "
+        android:visibility="visible"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b8"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="168dp"
+        android:layout_marginTop="220dp"
+        android:background="@mipmap/e8"
+        android:elevation="0dp"
+        android:onClick="OnB8"
+        android:text="  "
+        android:visibility="visible"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b7"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="98dp"
+        android:layout_marginTop="262dp"
+        android:background="@mipmap/e7"
+        android:elevation="0dp"
+        android:onClick="OnB7"
+        android:text="  "
+        android:visibility="visible"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b6"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="290dp"
+        android:background="@mipmap/e6"
+        android:elevation="0dp"
+        android:onClick="OnB6"
+        android:text="  "
+        android:visibility="visible"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b5"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="360dp"
+        android:background="@mipmap/e5"
+        android:elevation="0dp"
+        android:onClick="OnB5"
+        android:text="  "
+        android:visibility="visible"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b4"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="71dp"
+        android:layout_marginTop="390dp"
+        android:background="@mipmap/e4"
+        android:elevation="0dp"
+        android:onClick="OnB4"
+        android:text="  "
+        android:visibility="visible"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b3"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="141dp"
+        android:layout_marginTop="412dp"
+        android:background="@mipmap/e3"
+        android:elevation="0dp"
+        android:onClick="OnB3"
+        android:text="  "
+        android:visibility="visible"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b2"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="211dp"
+        android:layout_marginTop="425dp"
+        android:background="@mipmap/e2"
+        android:elevation="0dp"
+        android:onClick="OnB2"
+        android:text="  "
+        android:visibility="visible"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b1"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="281dp"
+        android:layout_marginTop="439dp"
+        android:background="@mipmap/e1"
+        android:elevation="0dp"
+        android:onClick="OnB1"
+        android:text="  "
+        android:visibility="visible"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
